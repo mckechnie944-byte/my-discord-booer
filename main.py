@@ -63,4 +63,4 @@ async def on_ready():
     print(f"Success! {bot.user.name} is fully online and synchronized globally.")
 
 # Put your secret token back inside the quotes below
-bot.run('MTUzMzI2MTU5Mzk4MTM1NDAwNQ.GxmcGb.7QJrB97bGvbuOA4FU6kcmJsr6PcTOnqD24rnfc')
+bot.run(os.getenv('DISCORD_TOKEN'))
